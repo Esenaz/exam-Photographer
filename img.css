@@ -1,0 +1,35 @@
+.photo-zoom {
+    background-color: rgba(25,132,155,0.3);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+.photo-zoom img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: block;
+    object-fit: cover;
+    margin-top: 60px;
+}
+.close-btn {
+    background: rgba(25, 132, 155, 0.3);
+    position: absolute;
+    top: 22%;
+    right: 31%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    width: 106px;
+    height: 38px;
+    border-color: #ffff;
+    margin-top: 60p;
+    color: white;
+
+}

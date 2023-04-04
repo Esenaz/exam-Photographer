@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url(./window.css);
+@import url(./img.css);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu';
+}
+body {
+    background-color:#272A2F;
+}
+.header {
+    height: 58px;
+    width: 100%;
+    background-color: #19849B;
+}
+.logo {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 12px;
+}
+.aboutme {
+    display: flex;
+    margin-left: 16vw;
+    margin-top: 51px;
+}
+.avatar {
+    width: 411px;
+    height: 355px;
+}
+.performance {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-left: 68px;
+    width: 560px;
+}
+.performance h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    border-bottom: 4px solid #19849B;
+
+}
+.some_text {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.text {
+    margin-top: 30px;
+    font-size: 16px;
+}
+.contact {
+    width: 293px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: #272A2F;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact:hover {
+    background-color: #19849B;
+    border: none;
+}
+.portfolio {
+    width: 100%;
+    margin-left: 16vw;
+    margin-top: 104px;
+}
+.photo {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.description {
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.div {
+    display: flex;
+}
+.img-item {
+    cursor: pointer;
+    width: 245px;
+    height: 245px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    opacity: 1;
+}
+.img-item:hover {
+    background-color: #19849B80;
+    opacity: 0.3;
+}
+.footer {
+    width: 100%;
+    height: 205px;
+    margin-top: 100px;
+    background-color: #19849B;
+    color: white;
+}
+.footer_ava{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.montana {
+    font-size: 22px;
+    font-weight: 700;
+}
+.number {
+    font-size: 18px;
+    margin-top: 6px;
+}
+.city {
+    font-size: 16px;
+    margin-top: 6px;
+}
+.footer_info {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+.rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    background-color: #16758A;
+    margin-top: 40px;
+    font-size: 12px;
+}
+@media screen and (max-width: 1050px){
+    .container {
+        width: 100%;
+    }
+    .avatar {
+        width: 762px;
+        height: 355px;
+        object-fit: cover;
+    }
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+    }
+    .performance {
+        margin: 65px 0
+    }
+
+}
+
+@media screen and (max-width: 950px){
+    .container {
+        width: 100%;
+    }
+
+    .avatar {
+        width: 620px;
+        height: 355px;
+        object-fit: cover;
+    }
+    .img-item {
+        width: 180px;
+        height:180px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    
+
+}
+
+@media screen and (max-width: 700px){
+    .container {
+        width: 100%;
+    }
+
+    .avatar {
+        width: 600px;
+        height: 355px;
+        object-fit: cover;
+    }
+    .img-item {
+        width: 180px;
+        height:180px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    
+
+}
+@media screen and (max-width: 450px){
+    .container {
+        width: 100%;
+    }
+
+    .avatar {
+        width: 341px;
+        height: 355px;
+        object-fit: cover;
+    }
+    .img-item {
+        width: 165px;
+        height:165px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    .performance {
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        width: 340px;
+    }
+    .portfolio {
+        width: 370px;
+        margin-left: 16vw;
+        margin-top: 104px;
+    }
+    .contact {
+        width: 341px;
+    }
+    .photo-zoom img {
+        width: 300px;
+        height: 300px;
+    }
+}
